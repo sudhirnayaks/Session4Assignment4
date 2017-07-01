@@ -6,7 +6,7 @@ class Employee{
 	protected int Empno;
 	
 	//Employee Parameterized constructor
-	public Employee(int basicsalary, String name, int Empno){
+	public Employee(double basicsalary, String name, int Empno){
 		this.basicsalary = basicsalary;
 		this.name = name;
 		this.Empno = Empno;
