@@ -3,7 +3,7 @@ package session4;
 //Trainee class Extends Employee parent class.
 public class Trainee extends Employee {
     double travel_allowance;
-	public Trainee(int basicsalary, String name, int Empno) {
+	public Trainee(double basicsalary, String name, int Empno) {
 		super(basicsalary, name, Empno);
 		//calculate travel allowance which is 10% of Basic for Trainee
 		travel_allowance = (0.10*basicsalary);
